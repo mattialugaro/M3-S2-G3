@@ -21,7 +21,7 @@ function App() {
             <Route path='/spiderman' element={<MyList content="Watch it Again" moviesName="spiderman" />} />
             <Route path='/lord-of-the-rings' element={<MyList content="New Releases" moviesName="lord of the rings" />} />
             <Route path='*' element={<NotFound />} />
-            <Route path='/movie/detail/:movieId' element={<MovieDetail moviesName="superman" />} />
+            <Route path='/movie/detail/:ombdId' element={<MovieDetail />} />
           </Routes>
           <MyFooter />
         </BrowserRouter>
